@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formatação de Tabela Usando CSS</title>
+    <style>
+        table{
+            font-family: Verdana, Geneva, Arial, Helvetica;
+            font-size: 10pt;
+            text-align: center;
+            padding-left: 4px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        td{
+            border: 1px solid black;
+        }
+
+        th{
+            background-color: #b2beff;
+            border: 1px solid black;
+        }
+
+        #linhaImpar{
+            background-color: #C1CDC1;
+        }
+
+        #inhaPar{
+            background-color: #E0EEE0;
+        }
+
+        #linhaTotal{
+            background-color: #EEE0E5;
+        }
+
+        tr:hover{ background: gold;}
+    </style>
+</head>
+<body>
+    <table align="center"> 
+        <tr>
+            <th>Loja</th>
+            <th>Janeiro</th>
+            <th>Fevereiro</th>
+        </tr>
+        <tr id="linhaImpar">
+            <td>Filial 1</td>
+            <td>120</td>
+            <td>320</td>
+        </tr>
+        <tr id="linhaPar">
+            <td>Filial 2</td>
+            <td>120</td>
+            <td>120</td>
+        </tr>
+        <tr id="linhaTotal">
+            <td>Total</td>
+            <td>240</td>
+            <td>440</td>
+        </tr>
+    </table>
+
+    <a href="exercicioCSSDIV.html">Exercício CSSDIV</a>
+</body>
+</html>

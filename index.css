@@ -1,19 +1,38 @@
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    height: auto;
-    max-width: 250px;
-    margin-right:550px; 
+.fundo {
+    background-image: url('btsSuga.png');
+    background-repeat: no-repeat;
+    background-size:auto 100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: hidden;
+    padding: 2em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-size: cover;  
+}
+
+h1{
+    font-family: "Time New Roman", Times, serif;
+    font-size:2.5em;
+    color:rgb(0, 0, 146);
 }
 p{
     font-family: "Time New Roman", Times, serif;
-    font-size:2em;
+    font-size:4em;
     font-style: italic;
+    color: rgb(0, 7, 0);
+}
+
+a{
+    font-family: "Time New Roman", Times, serif;
+    font-style: inherit;
+    font-size:1.22em;
+    color: rgb(226, 3, 3);
 }
 
 body{
-    color: black;
-    background-color: #aedffc;
+  
 }

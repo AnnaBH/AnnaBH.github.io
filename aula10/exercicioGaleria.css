@@ -1,0 +1,25 @@
+body{
+    background: #d6d6d6;
+}
+
+p{
+    font-family: "Opensans-Regular", Arial, sans-serif;
+    text-align: justify;
+    clear: both;
+    color: #333;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 10px;
+    line-height: 24px;
+}
+
+.galeria{
+    font-family: "Opensans-Regular", Arial, sans-serif;
+    background: #f5f5dc;
+    width: min-content;
+    margin: 20px;
+    float: left;
+    padding: 5px 5px 10px 5px;
+    text-align: center;
+}
+

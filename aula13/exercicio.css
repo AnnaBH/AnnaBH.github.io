@@ -1,0 +1,71 @@
+header h1{
+    margin: 0;
+    color: rgb(180, 223, 61);
+    font-family:"Verdana", Arial, Helvetica, sans-serif ;
+}
+
+header{
+    width: 50%;
+}
+
+nav h4{
+    margin: 0;
+    font-size: 1.1em;
+}
+
+nav{
+    width: 50%;
+}
+
+.imagem {
+    float: left;
+    width: 300px;
+    margin: 10px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+section{
+    width: 100%;
+}
+
+article section p{
+    margin: 10px;
+    margin-left: 0;
+}
+
+.artigo{
+    font-family: "opensans-regular", arial, sans-serif;
+    font-size: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: justify;
+    line-height: 24px;
+    width: 50%;
+    margin: 0;
+    float:left;
+}
+
+footer p{
+    font-size: 0.900em;
+}
+
+footer{
+    border-left: 5px;
+    border-left-style: solid;
+}
+
+aside{
+    background-color: rgb(210, 213, 219);
+    display: inline;
+}
+
+aside p{
+    font-size: 0.900em;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: blue;
+    text-align: justify;
+}
+

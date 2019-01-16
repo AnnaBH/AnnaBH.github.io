@@ -1,0 +1,28 @@
+nav{
+    background: #EEE685;
+    font-family: "Trebuchet", Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/*não visitado*/
+a:link{
+    color: #b9c941;
+    text-decoration: none;
+}
+
+/*visitado*/
+a:visited{
+    color: #458B00;
+}
+
+/*passar o mause*/
+a:hover{
+    color: #8B4726;
+    background: gold;
+}
+
+/*clicado*/
+a:active{
+    color: #FF1493;
+}

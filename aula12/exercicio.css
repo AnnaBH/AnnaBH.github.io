@@ -1,0 +1,63 @@
+body{
+    background: #d6d182;
+}
+
+nav{
+    background: rgb(255, 250, 190);
+    font-family: "Trebuchet", Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/*não visitado*/
+a:link{
+    color: #a7bd00;
+    text-decoration: none;
+}
+
+/*visitado*/
+a:visited{
+    color: rgb(38, 68, 9);
+}
+
+/*passar o mause*/
+a:hover{
+    color: rgb(194, 65, 0);
+    background: rgb(3, 252, 115);
+}
+
+/*clicado*/
+a:active{
+    color: rgb(255, 0, 0);
+}
+
+.imagem {
+    float: left;
+    width: 200px;
+    margin: 10px;
+}
+
+.note{
+    font-family: "opensans-regular", arial, sans-serif;
+    background-color: #f5f5dc;
+    border: 1px solid black;
+    color: #333;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 10px;
+    text-align: justify;
+    line-height: 24px;
+    width: 500px;
+    margin: 20px;
+    float: left;
+}
+
+.note h1 {
+    color: #009c22;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin: 8px;
+}
+
+.note p{
+    clear: both;
+}

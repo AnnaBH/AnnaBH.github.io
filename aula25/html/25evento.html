@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aula 25</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+<body>
+
+    <div class="caixa blue" id="dbclick">Caixa 01 - Evento dbclick</div>
+    <div class="caixa red" id="mouseover">Caixa 02 - Evento mouseover</div>
+
+    <!-- Optional JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $('#dbclick').dblclick(function () {
+            alert('Evento de double click')
+        })
+
+        $('#mouseover').mouseover(function () {
+            alert('Evento de mouse over')
+        })
+    </script>
+
+    <footer>
+        <a href="25eventoForm.html">Evento Formulário</a>
+    </footer>
+</body>
+
+</html>
